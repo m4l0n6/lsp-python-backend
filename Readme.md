@@ -6,7 +6,7 @@ A Node.js WebSocket proxy for PyLSP (Python Language Server Protocol).
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/lsp-python-backend.git
+   git clone https://github.com/m4l0n6/lsp-python-backend.git
    cd lsp-python-backend
    ```
 
