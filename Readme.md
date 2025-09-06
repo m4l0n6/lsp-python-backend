@@ -16,7 +16,7 @@ A Node.js WebSocket proxy for PyLSP (Python Language Server Protocol).
    ```
 
 3. **Start PyLSP server:**
-   - Install PyLSP if not already:
+   - Install PyLSP if not already (run in ternimal):
      ```sh
      pip install 'python-lsp-server[all]'
      ```
@@ -25,6 +25,7 @@ A Node.js WebSocket proxy for PyLSP (Python Language Server Protocol).
      pylsp --tcp --host 127.0.0.1 --port 2087
      ```
      or
+     
      ```sh
      python -m pylsp --tcp --host 127.0.0.1 --port 2087
      ```
