@@ -24,6 +24,10 @@ A Node.js WebSocket proxy for PyLSP (Python Language Server Protocol).
      ```sh
      pylsp --tcp --host 127.0.0.1 --port 2087
      ```
+     or
+     ```sh
+     python -m pylsp --tcp --host 127.0.0.1 --port 2087
+     ```
 
 4. **Start Node.js WebSocket server:**
    ```sh
