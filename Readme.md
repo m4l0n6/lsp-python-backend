@@ -1,30 +1,31 @@
-## Environment Prepare
+# lsp-python-backend
 
-Install `node_modules`:
+A Node.js WebSocket proxy for PyLSP (Python Language Server Protocol).
 
-```bash
-npm install
-```
+## Setup
 
-## Run pyls
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/lsp-python-backend.git
+   cd lsp-python-backend
+   ```
 
-Instal pylsp:
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-```sh
-pip install "python-lsp-server[all]"
-```
-or
-```sh
-python -m pip install "python-lsp-server[all]"
-```
+3. **Start PyLSP server:**
+   - Install PyLSP if not already:
+     ```sh
+     pip install 'python-lsp-server[all]'
+     ```
+   - Run PyLSP on TCP port 2087:
+     ```sh
+     pylsp --tcp --host 127.0.0.1 --port 2087
+     ```
 
-Open terminal run:
-
-```sh
-python -m pylsp --tcp --host 127.0.0.1 --port 2087
-```
-
-Run server Node:
-```sh
-node server.js
-```
+4. **Start Node.js WebSocket server:**
+   ```sh
+   node server.js
+   ```
